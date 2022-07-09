@@ -26,6 +26,9 @@ importar para um novo servidor - data import
 
 update gafanhotos set nome = 'fulano' where id = '5';   /* alterando dado da tabela*/
 
+show create table 'nome da table'; /* Mostra todos os comandos usados para criar a tabela*/
 
+
+ALTER TABLE `amigos` CHANGE `telefone` `telefone` VARCHAR(12) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL; /* Mudando dados da tabela */
 
 
